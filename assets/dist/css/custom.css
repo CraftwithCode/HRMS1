@@ -1,0 +1,20 @@
+#printTime {
+	padding-left: 10px;
+	display: inline-block;
+}
+.printHeader {
+	display: none;
+	padding: 0 10px;
+}
+.timesheet-iframe,.view-iframe {
+	border: none;
+	height: calc(100vh - 260px);
+}
+@media print {
+	.box-header {
+		display: none;
+	}
+	.printHeader {
+		display: block;
+	}
+}
